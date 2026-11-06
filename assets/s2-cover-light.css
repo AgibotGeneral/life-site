@@ -1,0 +1,20 @@
+/* Scene-first LIFE cover with the complete film available on demand. */
+body[data-page=s2] .life-cover{height:auto;min-height:0;max-height:none;padding:24px 28px 32px;background:#fff}
+body[data-page=s2] .life-cover .hero-stage{display:grid;grid-template-columns:.8fr 1.2fr;align-items:center;gap:48px;padding:92px 48px 84px;min-height:580px;aspect-ratio:auto;background:#f3f8fc;border:1px solid #dce7ef;border-radius:10px}
+body[data-page=s2] .life-cover .hero-stage:after{display:none}
+body[data-page=s2] .life-cover .film-copy{position:static;inset:auto;width:auto;max-width:none;transform:none;order:0;margin:0}
+body[data-page=s2] .life-cover .film-copy h1{font-family:Georgia,"Times New Roman",serif;color:#1d344c;font-size:clamp(44px,4.8vw,72px);line-height:1.12;margin:0 0 24px;font-weight:500;letter-spacing:-.045em}
+body[data-page=s2] .life-cover .film-copy>p{display:block;color:#53687b;line-height:1.95;font-size:15px;max-width:380px}
+.cover-topics{display:flex;flex-wrap:wrap;gap:10px;margin:24px 0}
+.cover-topics span{font-size:11px;color:#4b7696;padding:7px 11px;background:#e7f1f9;border:1px solid #d1e3f1;border-radius:4px}
+body[data-page=s2] .life-cover .film-top{top:28px;left:48px;right:48px;color:#477ca2}
+body[data-page=s2] .life-cover .film-bottom{bottom:28px;left:48px;right:48px;color:#477ca2}
+.cover-scene{margin:0;min-width:0;order:1}
+.cover-film-button{position:relative;display:block;padding:0;width:100%;background:#e7eff5;border:1px solid #d3e0ea;border-radius:8px;overflow:hidden;cursor:pointer}
+.cover-film-button img{display:block;width:100%;height:auto;aspect-ratio:126/79;object-fit:cover;filter:none}
+.cover-play{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);display:grid;place-items:center;width:58px;height:58px;border-radius:50%;color:#187ab8;background:#fffffff0;border:1px solid #d1e3f1;font-size:18px;padding-left:3px;box-shadow:0 4px 24px #24445e24}
+.cover-film-button:hover .cover-play{background:#fff;box-shadow:0 4px 28px #24445e40}
+.cover-scene figcaption{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-top:14px;font-size:11px;line-height:1.7;color:#637c90}
+.cover-scene figcaption button{padding:0;border:0;background:none;color:#187ab8;font:inherit;cursor:pointer}
+@media(max-width:900px){body[data-page=s2] .life-cover .hero-stage{gap:28px;padding-inline:28px}.cover-scene figcaption{flex-wrap:wrap}.cover-scene figcaption button{font-size:10px}}
+@media(max-width:760px){body[data-page=s2] .life-cover{padding:12px 12px 24px}body[data-page=s2] .life-cover .hero-stage{grid-template-columns:1fr;gap:30px;padding:72px 22px 76px;min-height:0}body[data-page=s2] .life-cover .film-copy h1{font-size:48px}body[data-page=s2] .life-cover .film-copy>p{max-width:none;font-size:14px}body[data-page=s2] .life-cover .film-top,body[data-page=s2] .life-cover .film-bottom{left:22px;right:22px;font-size:8px}.cover-play{width:48px;height:48px;font-size:15px}body[data-page=s2] .life-cover .film-bottom>.mono{display:none}}

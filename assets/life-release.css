@@ -1,0 +1,9 @@
+/* Public LIFE resources: readable links and compact, responsive cards. */
+.life-public-links{display:flex;flex-wrap:wrap;gap:14px 24px;margin-top:8px}
+.life-open-resources{margin-block:48px}.life-open-resources>h3{font-size:30px;margin:0 0 16px}.life-open-resources>p{max-width:900px}
+.life-resource-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;margin:28px 0}
+.life-resource-grid article{display:flex;flex-direction:column;align-items:flex-start;padding:26px;border:1px solid var(--line);border-radius:8px;background:#ffffff03;min-width:0}
+.life-resource-grid h4{font-size:22px;margin:14px 0}.life-resource-grid p{font-size:13px;line-height:1.8;margin:0 0 22px}.life-resource-grid .report-link{margin-top:auto;font-size:12px}.life-resource-grid .small-label{font-size:9px;color:#91a79a;letter-spacing:.1em}
+.life-model-links{display:flex;gap:18px;margin:0 0 20px}.life-model-links .report-link{margin:0}.life-open-resources .life-license-note{font-size:11px;line-height:1.8;color:var(--muted)}
+#long-film-action{flex-wrap:wrap}
+@media(max-width:800px){.life-resource-grid{grid-template-columns:1fr}.life-resource-grid article{padding:24px}.life-public-links{gap:14px 20px}.life-open-resources>h3{font-size:25px}}
